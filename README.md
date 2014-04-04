@@ -11,6 +11,7 @@ using the Arduino for Eclipse plugin, developed by Jan Baeyens (see http://eclip
 Tasks have 2 functions:
 
 x_Init() is called once from the familiar Arduino setup() function.
+
 x_update() is called periodically, as prescribed in the task array in TTduino.cpp.
 
 Task properties are set up in the task array using:
