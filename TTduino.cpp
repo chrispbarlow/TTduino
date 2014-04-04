@@ -4,11 +4,12 @@
 #include <avr/wdt.h>
 #include "TTduino.h"
 
+
 /*
  * Define how often the ticks occur, and the number of tasks in the schedule
  */
-#define TICK_PERIOD (2000) 	/* Tick period in microseconds */
-#define NUM_TASKS 	(3)		/* Total number of tasks */
+#define TICK_PERIOD (1000) 	/* Tick period in microseconds */
+#define NUM_TASKS 	(4)		/* Total number of tasks */
 
 bool schedLock = false;
 
@@ -20,21 +21,27 @@ bool schedLock = false;
 task_t Tasks[NUM_TASKS] =
 {
 	{
-		exampleTask1_update,
+		blink_update,
 		10,
 		0
 	},
 
 	{
-		exampleTask2_update,
-		2,
+		exampleTask1_update,
+		10,
 		1
+	},
+
+	{
+		exampleTask2_update,
+		10,
+		2
 	},
 
 	{
 		exampleTask3_update,
 		10,
-		2
+		3
 	}
 
 };
@@ -47,6 +54,7 @@ void setup()
 {
 	wdt_disable();			/* Disable the watchdog timer */
 
+	blink_Init();
 	exampleTask1_Init();
 	exampleTask2_Init();
 	exampleTask3_Init();

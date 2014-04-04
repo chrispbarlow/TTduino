@@ -12,6 +12,7 @@
  * Task includes
  * These header files contain the function prototypes for your tasks
  * */
+#include "Tasks/Blink/Blink.h"
 #include "Tasks/exampleTask1/exampleTask1.h"
 #include "Tasks/exampleTask2/exampleTask2.h"
 #include "Tasks/exampleTask3/exampleTask3.h"
