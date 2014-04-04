@@ -5,7 +5,8 @@ Time Triggered scheduler for Arduino
 
 This is an implementation of a Time Triggered Cooperative (TTC) schedule, based on the designs by Dr Michael J. Pont (see http://www.safetty.net/training/beginners)
 
-The project is built in Eclipse Juno (http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/junosr2) using the Arduino for Eclipse plugin, developed by Jan Baeyens (see http://eclipse.baeyens.it/Install.shtml for installation instructions)
+The project is built in Eclipse Juno (http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/junosr2) 
+using the Arduino for Eclipse plugin, developed by Jan Baeyens (see http://eclipse.baeyens.it/Install.shtml for installation instructions)
 
 Tasks have 2 functions:
 
