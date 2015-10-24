@@ -20,7 +20,7 @@
  */
 #include <arduino.h>
 
-void blink_Init(void){
+volatile void blink_Init(void){
 	pinMode(13, OUTPUT);
 }
 

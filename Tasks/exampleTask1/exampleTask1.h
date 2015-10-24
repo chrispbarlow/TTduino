@@ -8,7 +8,7 @@
 #ifndef EXAMPLETASK1_H_
 #define EXAMPLETASK1_H_
 
-void exampleTask1_Init(void);
+volatile void exampleTask1_Init(void);
 volatile void exampleTask1_update(void);
 
 

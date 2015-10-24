@@ -6,7 +6,7 @@
  */
 
 
-void exampleTask2_Init(void){
+volatile void exampleTask2_Init(void){
 
 }
 
