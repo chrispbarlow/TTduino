@@ -1,7 +1,4 @@
 // Do not remove the include below
-#include <avr/power.h>
-#include <avr/sleep.h>
-#include <avr/wdt.h>
 #include "TTduino.h"
 #include "libTTduino/libTTduino.h"
 
