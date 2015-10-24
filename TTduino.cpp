@@ -25,6 +25,7 @@ void setup(){
 	TTduino_addTask(exampleTask3_Init, exampleTask3_update, 10, 3);
 
 	TTduino_start(1000);
+	/* NOTE: with the current settings, the maximum value for this can be 4095 microseconds without changing the timer prescalar */
 }
 
 /* The loop function handles scheduling of the tasks */

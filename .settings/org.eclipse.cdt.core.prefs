@@ -307,7 +307,16 @@ environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.B
 environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.BOARD_NAME/value=Arduino Uno
 environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.COM_PORT/delimiter=;
 environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.COM_PORT/operation=replace
-environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.COM_PORT/value=COM22
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.COM_PORT/value=COM7
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.C.COMPILE/delimiter=;
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.C.COMPILE/operation=replace
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.C.COMPILE/value=
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.COMPILE/delimiter=;
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.COMPILE/operation=replace
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.COMPILE/value=
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.CPP.COMPILE/delimiter=;
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.CPP.COMPILE/operation=replace
+environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.EXTRA.CPP.COMPILE/value=
 environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.PLATFORM_FILE/delimiter=;
 environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.PLATFORM_FILE/operation=replace
 environment/project/it.baeyens.arduino.core.toolChain.release.742487039/JANTJE.PLATFORM_FILE/value=C\:/Arduino/hardware/arduino/avr/platform.txt

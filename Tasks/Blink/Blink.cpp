@@ -31,10 +31,7 @@ volatile void blink_update(void){
 	// note, we don't use delay(), as this will block the task.
 	// A counter is used to keep track of time, to allow other tasks to run in the mean time.
 
-	if(blinkCount < 99){		// period is 10 ms, so count up to 99 (toggle pin on the 100th time)
-		blinkCount++;
-	}
-	else{
+	if(++blinkCount == 50){
 		switch(pinState){
 		case LOW:
 			pinState = HIGH;	// set the LED on
